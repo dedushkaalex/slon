@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+
+    "outDir": "./dist",
+    "module": "nodenext",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "moduleResolution": "nodenext",
+
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["vitest/globals"]
+  },
+  "exclude": ["node_modules", "eslint.config.mjs"],
+  "include": ["src"]
+}
